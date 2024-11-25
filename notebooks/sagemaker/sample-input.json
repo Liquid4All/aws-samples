@@ -1,0 +1,14 @@
+
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {
+            "role": "user",
+            "content": "What is deep learning?"
+        }
+    ],
+    "max_tokens": 512,
+    "temperature": 1,
+    "top_p": .9,
+    "stop": ["User:"]
+}
