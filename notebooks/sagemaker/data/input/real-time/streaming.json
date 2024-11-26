@@ -1,14 +1,13 @@
-
 {
+    "stream": true,
     "model": "/opt/ml/model",
     "messages": [
         {
             "role": "user",
-            "content": "What is deep learning?"
+            "content": "What is deep learning in 2 sentences?"
         }
     ],
     "max_tokens": 512,
-    "temperature": 1,
-    "top_p": .9,
-    "stop": ["User:"]
+    "temperature": 0.8,
+    "top_p": 0.9
 }

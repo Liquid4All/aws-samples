@@ -1,0 +1,25 @@
+{
+    "id": "chat-07cffa72fc9a443d892b47facf8fc078",
+    "object": "chat.completion",
+    "created": 1732589665,
+    "model": "/opt/ml/model",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Deep learning is a subset of machine learning that involves training artificial neural networks to recognize patterns in data and make decisions based on that recognition. It involves the use of multiple layers in the neural network, allowing for more complex and abstract representations of the data to be learned.",
+                "tool_calls": []
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 18,
+        "total_tokens": 72,
+        "completion_tokens": 54
+    },
+    "prompt_logprobs": null
+}
