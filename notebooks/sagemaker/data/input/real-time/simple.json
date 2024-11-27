@@ -1,5 +1,4 @@
 {
-    "model": "/opt/ml/model",
     "messages": [
         {
             "role": "user",
